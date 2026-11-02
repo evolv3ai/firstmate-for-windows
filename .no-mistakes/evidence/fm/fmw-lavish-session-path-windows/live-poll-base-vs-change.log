@@ -1,0 +1,18 @@
+### artifact as firstmate spells it: /tmp/fm-live-lavish.Gt159Z/captain-decisions.html
+### state.json file field (written by real lavish-axi 0.1.96):
+      "file": "C:\\Users\\Owner\\AppData\\Local\\Temp\\fm-live-lavish.Gt159Z\\captain-decisions.html",
+
+### BASE (40d9228): bin/fm-procevent-lavish.sh poll /tmp/fm-live-lavish.Gt159Z/captain-decisions.html
+board must have one saved Lavish session
+error: cannot resolve the board server from its Lavish session: /tmp/fm-live-lavish.Gt159Z/captain-decisions.html
+rc=1
+
+### CHANGE (4721bc2): bin/fm-procevent-lavish.sh poll /tmp/fm-live-lavish.Gt159Z/captain-decisions.html  (20s cap)
+[lavish-axi] Long-polling for user feedback on C:\Users\Owner\AppData\Local\Temp\fm-live-lavish.Gt159Z\captain-decisions.html. This stays silent until the user sends feedback, ends the session, or leaves every review window disconnected past the reconnect grace period - leave it running. Detected layout issues do NOT return this poll: they wait in the user's Layout issues inbox until the user queues them as ordinary feedback. If it gets killed or times out before feedback arrives, re-run `lavish-axi poll C:\Users\Owner\AppData\Local\Temp\fm-live-lavish.Gt159Z\captain-decisions.html` - feedback remains queued until delivery. Poll delivery consumes the response, so read it completely.
+### lavish-axi session listing while the change's poll runs:
+sessions[1]{file,status,url,pending_prompts,listener}:
+  "C:\\Users\\Owner\\AppData\\Local\\Temp\\fm-live-lavish.Gt159Z\\captain-decisions.html",open,"http://127.0.0.1:4399/session/23bb5310611b3068",0,agent-listener
+visual_guidance[5]: "Use visual hierarchy to make the most important decisions, risks, tradeoffs, and next actions obvious at a glance","Show, don't tell: explain concepts, flows, relationships, and comparisons with labeled illustrations - hand-authored inline SVG, per the diagram playbook - and show existing UI or state with screenshots of the real pages (run the app read-only if needed); reserve prose for what cannot be shown, such as rationale, trade-offs, and open questions","Structure the prose that remains with sections, cards, tables, annotated snippets, and side-by-side comparisons instead of long paragraphs","Choose typography, spacing, color, and layout deliberately so the artifact has a clear point of view","Prevent horizontal overflow at every nesting level: nested grid/flex children also need minmax(0, 1fr) tracks and min-width: 0, especially when badges, labels, or status text use wide pixel or monospace fonts; wrap, truncate, or contain long unbreakable text deliberately"
+playbooks[8]{id,use_when}:
+Terminated                 lavish-axi poll "$artifact" | poll_response_filter "$response"
+rc=124 (124 = still long-polling the real server when capped)

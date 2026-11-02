@@ -1,0 +1,12 @@
+### real listing rows:
+  "C:\\Users\\Owner\\AppData\\Local\\Temp\\fm-live-lavish.Gt159Z\\captain-decisions.html",open,"http://127.0.0.1:4399/session/23bb5310611b3068",0,none
+listing_open(/tmp/fm-live-lavish.Gt159Z/captain-decisions.html -> /tmp/fm-live-lavish.Gt159Z/captain-decisions.html) rc=0
+listing_open(C:\Users\Owner\AppData\Local\Temp\fm-live-lavish.Gt159Z\captain-decisions.html -> /c/Users/Owner/.no-mistakes/worktrees/fe4da24583e7/01M6EH87NDSQZ1KEJWF0HAS631/C:/Users/Owner/AppData/Local/Temp/fm-live-lavish.Gt159Z/captain-decisions.html) rc=1
+listing_open(/TMP/FM-LIVE-LAVISH.GT159Z/captain-decisions.html -> /TMP/FM-LIVE-LAVISH.GT159Z/captain-decisions.html) rc=0
+listing_open(/tmp/fm-live-lavish.Gt159Z/other.html -> /tmp/fm-live-lavish.Gt159Z/other.html) rc=1
+### endpoint from Windows spelling:
+board must have one saved Lavish session
+rc=1
+### endpoint for a file with no session:
+board must have one saved Lavish session
+rc=1

@@ -1,0 +1,18 @@
+ok - a session stored as C:\Users\Owner\AppData\Local\Temp\fm-win-lavish.Oub91M\board.html is found from the /tmp spelling
+ok - the same session is found from the drive spelling
+ok - the same session is found from the mixed-case spelling /C/USERS/OWNER/APPDATA/LOCAL/TEMP/FM-WIN-LAVISH.OUB91M/board.html
+ok - a session stored under a differently-cased spelling is found from the /tmp spelling
+ok - a session for another file is no session for this board
+ok - the refusal names the missing session
+ok - an unrelated session in the store does not disturb the match
+ok - the quoted Windows listing row shows the /tmp-spelled board open
+ok - the same row shows the drive-spelled board open
+ok - the same row shows the mixed-case-spelled board open
+ok - the row says nothing about another file
+ok - a closed row is not open
+all tests passed
+
+real	0m6.822s
+user	0m1.665s
+sys	0m2.288s
+exit=0

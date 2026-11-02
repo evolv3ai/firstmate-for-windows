@@ -1,0 +1,13 @@
+ok - a session stored under the Windows spelling of the artifact resolves its server
+ok - two spellings of one artifact still yield the one saved session
+ok - a differently-cased stored spelling of the artifact still yields the one session
+ok - a Windows-spelled session for a different file yields none
+ok - only the matching session counts when the store holds several boards
+skip: without-cygpath comparison: this host has a real cygpath
+ok - the session listing matches the artifact through either spelling and only when open
+all tests passed
+
+real	0m8.355s
+user	0m2.239s
+sys	0m3.037s
+exit=0
